@@ -1,0 +1,31 @@
+Assignment Submission
+       Unit: comp309
+ Assignment: a1
+       User: awilli64
+     Who is:
+       Date: Wed Mar 18 10:17:46 AEDT 2015
+----------------------------------------------------------------
+Files submitted:
+-rw-rw-r-- 1 awilli64 awilli64 5.8K Mar 18 10:13 assignment1.c
+-rw-rw-r-- 1 awilli64 awilli64  193 Mar 18 10:01 makefile
+----------------------------------------------------------------
+Script of session:
+Script started on Wed 18 Mar 2015 10:17:05 AEDT
+]0;awilli64@turing:~/comp309/ass1[awilli64@turing ass1]$ make
+gcc -Wall -lcrypto  assignment1.c -o assignment1
+]0;awilli64@turing:~/comp309/ass1[awilli64@turing ass1]$ makeexit./assignment1 4 "$(< partial_key.txt)" 5[K 5[K
+
+Plain: This is my super secret text
+
+Cipher: #(g*VCv{8J#h(6_
+
+Partial key:  L17hhOCMtHI8L6m67Twgo8Dx7n0jD
+
+Complete key: L17hhOCMtHI8L6m67Twgo8Dx7n0jD6Qp
+]0;awilli64@turing:~/comp309/ass1[awilli64@turing ass1]$ ./assignment1 4 "$(< partial_key.txt)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[Kexit./assignment1 4 "$(< partial_key.txt)" 5
+Usage: ./assignment1 nprocs partial_key
+]0;awilli64@turing:~/comp309/ass1[awilli64@turing ass1]$ exit
+exit
+
+Script done on Wed 18 Mar 2015 10:17:32 AEDT
+1197
